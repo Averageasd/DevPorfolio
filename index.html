@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Montserrat&family=Playfair+Display:wght@400;900&family=Poppins:wght@200&family=Roboto:wght@400;900&display=swap"
+          rel="stylesheet">
+    <script src="main.js" defer></script>
+</head>
+
+<body>
+<header>
+    <div class="container">
+        <button class="toggle-btn">
+            <span class="toggle-symbol"></span>
+        </button>
+        <nav class="nav nav-invisible">
+            <ul class="nav-list">
+                <li><a class="nav-link" href="#about">About</a></li>
+                <li><a class="nav-link" href="#skill">Skill</a></li>
+                <li><a class="nav-link" href="#project">Project</a></li>
+                <li><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<section id="intro">
+    <div class="container row">
+        <div class="intro__image-container">
+            <img src="image/programming-img-small.jpg" alt="background image">
+        </div>
+
+        <div class="intro__side-content">
+            <h1 class="intro-title">Hello, I'm <br><span>Nguyen Huynh</span></h1>
+            <p class="intro-text">Through the years of constant learning, I have equipped myself with
+                programming skills that enable me to build projects in various front-end and back-end programming
+                languages
+                and technologies.</p>
+            <div class="intro-link-container">
+                <a class="outside_link" href="https://github.com/Averageasd">
+                    <i class="devicon-github-original colored"></i>
+                </a>
+                <a class="outside_link" href="https://www.linkedin.com/in/nguyen-huynh-77b866227/">
+                    <i class="devicon-linkedin-plain colored"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="about">
+    <div class="container row row-reverse">
+        <div class="about-img-container">
+            <img src="image/programmer-img.jpg" alt="programmer image">
+        </div>
+        <div class="about-text">
+            <h2 class="about-title">About me</h2>
+            <p> I'm an aspiring software engineer who has a desire to build scalable, functional products.
+                I have a passion to learn and expand programming skills and always look for an opportunity to
+                collaborate
+            </p>
+        </div>
+
+    </div>
+</section>
+<section id="skill">
+    <div class="container row">
+        <div class="skill-image-container">
+            <img class="skill-image" src="image/programming-skills.jpg" alt="programming skills image">
+        </div>
+        <div class="skill-text">
+            <h2 class="skill-title">Skills</h2>
+            <div class="skill-container">
+                <i class="devicon-java-plain colored"></i>
+                <i class="devicon-javascript-plain colored"></i>
+                <i class="devicon-html5-plain colored"></i>
+                <i class="devicon-css3-plain colored"></i>
+                <i class="devicon-webpack-plain colored"></i>
+                <i class="devicon-npm-original-wordmark colored"></i>
+                <i class="devicon-git-plain colored"></i>
+                <i class="devicon-webstorm-plain colored"></i>
+                <i class="devicon-vscode-plain colored"></i>
+                <i class="devicon-intellij-plain colored"></i>
+            </div>
+        </div>
+
+
+    </div>
+</section>
+<section id="project">
+    <div class="container">
+        <h2 class="project-title">Projects</h2>
+        <div class="project-item">
+            <div class="project-screenshot-container">
+                <img class="project-screenshot" src="image/large-integer-project.jpg" alt="large integer screenshot">
+            </div>
+            <div  class="project-info">
+                <h2 class="project-item-name">Large Integer</h2>
+                <p>A large integer application that is built from scratch using Doubly linked list data structure and
+                    Java</p>
+                <div class="project-techs">
+                    <i class="devicon-java-plain colored"></i>
+                    <i class="devicon-intellij-plain colored"></i>
+                </div>
+                <a class="view-github-link" href="https://github.com/Averageasd/LargeInteger">View on github</a>
+            </div>
+        </div>
+        <div class="project-item">
+            <div class="project-screenshot-container">
+                <img class="project-screenshot" src="image/sentencegen-project.jpg" alt="sentence generator screenshot">
+            </div>
+            <div class="project-info">
+                <h2 class="project-item-name">Sentence generator</h2>
+                <p>Application that utilizes recursion to traverse the set of production rules to create random
+                    sentences</p>
+                <div class="project-techs">
+                    <i class="devicon-java-plain colored"></i>
+                    <i class="devicon-intellij-plain colored"></i>
+                </div>
+                <a class="view-github-link" href="https://github.com/Averageasd/RandomSentenceGenerator">View on github</a>
+            </div>
+        </div>
+        <div class="project-item">
+            <div class="project-screenshot-container">
+                <img class="project-screenshot" src="image/reminder-project.jpg" alt="reminder app screenshot">
+            </div>
+            <div  class="project-info">
+                <h2 class="project-item-name">Reminder</h2>
+                <p>A web application that is built using HTML, CSS, and Javascript. Allows user
+                    to manage their own todo projects and items. Utilized Webpack to make resolve
+                    dependencies between files easier.</p>
+                <div class="project-techs">
+                    <i class="devicon-javascript-plain colored"></i>
+                    <i class="devicon-html5-plain colored"></i>
+                    <i class="devicon-css3-plain colored"></i>
+                    <i class="devicon-webpack-plain colored"></i>
+                </div>
+                <a class="view-github-link" href="https://github.com/Averageasd/ReminderApp">View on github</a>
+            </div>
+        </div>
+        <div class="project-item">
+            <div class="project-screenshot-container">
+                <img class="project-screenshot" src="image/battleship-project.jpg" alt="battleship screenshot">
+            </div>
+            <div  class="project-info">
+                <h2 class="project-item-name">Battleship</h2>
+                <p>Classic battleship game. Utilized Jest to automate unit testing. </p>
+                <div class="project-techs">
+                    <i class="devicon-javascript-plain colored"></i>
+                    <i class="devicon-html5-plain colored"></i>
+                    <i class="devicon-css3-plain colored"></i>
+                    <i class="devicon-webpack-plain colored"></i>
+                    <i class="devicon-jest-plain colored"></i>
+                </div>
+                <a class="view-github-link" href="https://github.com/Averageasd/BattleShipRecreation">View on github</a>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="container row">
+        <div class="contact-info">
+            <h2>Contact me</h2>
+            <p>Please contact me if you think I am a good fit for your company!!!</p>
+            <h3 class="phone-number-title">Phone number : </h3>
+            <p class="phone-num">(+1) 571-443-7639</p>
+            <h3 class="email-title">Email address : </h3>
+            <p class="email address">Email: nhuynh9497@gmail.com</p>
+        </div>
+        <div class="contact-img-container">
+            <img src="image/contact-me.jpg" alt="contact image">
+        </div>
+
+    </div>
+
+</section>
+</body>
+</html>
