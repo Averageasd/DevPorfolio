@@ -198,6 +198,10 @@ i {
     font-size: 2.25rem;
 }
 
+.project-title{
+    text-align: center;
+}
+
 /*.project-item i{*/
 /*    font-size: 2rem;*/
 /*}*/
