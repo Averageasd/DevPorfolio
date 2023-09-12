@@ -221,7 +221,9 @@ i {
 }
 
 .view-github-link {
-    display: block;
+    display: inline-block;
+    color:#F0F0F0;
+    font-weight: bold;
     margin-top: 1em;
 }
 
