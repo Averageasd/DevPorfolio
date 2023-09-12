@@ -154,6 +154,19 @@ i {
     gap: 1em;
 }
 
+.intro-button {
+    display: inline-block;
+    color:#F0F0F0;
+    font-size: 1.5rem;
+    padding: 0.5em 2em;
+    border-radius: 1.5em;
+    min-width: 8em;
+    text-align: center;
+    background-color: #213555;
+    text-decoration: none;
+    margin-top: 1em;
+}
+
 #about {
     background-color: #F0F0F0;
     text-align: center;
