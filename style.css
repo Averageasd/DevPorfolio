@@ -173,6 +173,12 @@ i {
     padding: 3em 0;
 }
 
+.about-text{
+    text-align: center;
+    max-width: 600px;
+    margin:auto;
+}
+
 #skill {
     text-align: center;
     background-color: #4F709C;
